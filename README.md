@@ -4,10 +4,13 @@ The project consists in designing and synthesizing a convolutional encoder in VH
 
 ## Group members
 
-Francesco Barisani, Nicolas Benatti
+Francesco Barisani *francesco.barisani@mail.polimi.it*
 
-*{francesco.barisani, nicolas.benatti}@mail.polimi.it*
+Nicolas Benatti *nicolas.benatti@mail.polimi.it*
 
 ## What is a convolutional encoder?
 
-## Why should I care?
+## Datapath
+
+## Results
+
