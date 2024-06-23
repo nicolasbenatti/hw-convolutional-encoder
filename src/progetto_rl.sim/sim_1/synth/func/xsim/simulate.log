@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: Simulation Ended! TEST PASSATO (ENCODE_EXAMPLE)
+Time: 7550100 ps  Iteration: 0  Process: /tb_1/test  File: /home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sim_1/new/tb_1.vhd
+$finish called at time : 7550100 ps : File "/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sim_1/new/tb_1.vhd" Line 149

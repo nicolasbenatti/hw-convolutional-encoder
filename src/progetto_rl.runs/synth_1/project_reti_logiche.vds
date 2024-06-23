@@ -1,0 +1,288 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon May 16 09:18:04 2022
+# Process ID: 6715
+# Current directory: /home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.runs/synth_1
+# Command line: vivado -log project_reti_logiche.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source project_reti_logiche.tcl
+# Log file: /home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.runs/synth_1/project_reti_logiche.vds
+# Journal file: /home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.runs/synth_1/vivado.jou
+# Running On: fedora, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 6, Host memory: 16076 MB
+#-----------------------------------------------------------
+source project_reti_logiche.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/utils_1/imports/synth_1/project_reti_logiche.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/utils_1/imports/synth_1/project_reti_logiche.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top project_reti_logiche -part xc7a200tfbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg484-1
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6752
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2799.621 ; gain = 0.000 ; free physical = 185 ; free virtual = 15685
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'project_reti_logiche' [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:20]
+INFO: [Synth 8-637] synthesizing blackbox instance 'DATAPATH0' of component 'datapath' [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:79]
+INFO: [Synth 8-226] default block is never used [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:412]
+INFO: [Synth 8-226] default block is never used [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:417]
+INFO: [Synth 8-226] default block is never used [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:422]
+INFO: [Synth 8-226] default block is never used [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:427]
+INFO: [Synth 8-256] done synthesizing module 'project_reti_logiche' (1#1) [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/sources_1/new/10668784_10667413.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2799.621 ; gain = 0.000 ; free physical = 283 ; free virtual = 15332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2799.621 ; gain = 0.000 ; free physical = 622 ; free virtual = 15671
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2799.621 ; gain = 0.000 ; free physical = 635 ; free virtual = 15683
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2799.621 ; gain = 0.000 ; free physical = 967 ; free virtual = 16016
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/constrs_1/new/clock.xdc]
+Finished Parsing XDC File [/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.srcs/constrs_1/new/clock.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2863.551 ; gain = 0.000 ; free physical = 1079 ; free virtual = 16147
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2863.551 ; gain = 0.000 ; free physical = 1079 ; free virtual = 16147
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 1150 ; free virtual = 16219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 1150 ; free virtual = 16219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 1150 ; free virtual = 16219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'project_reti_logiche'
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_conv_reg' in module 'project_reti_logiche'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                            00000 |                            00000
+                      s1 |                            00001 |                            00001
+                      s2 |                            00010 |                            00010
+                      s3 |                            00011 |                            00011
+                      s4 |                            00100 |                            00100
+                      s5 |                            00101 |                            00101
+                      s6 |                            00110 |                            00110
+                      s7 |                            00111 |                            00111
+                      s8 |                            01000 |                            01000
+                      s9 |                            01001 |                            01001
+                     s10 |                            01010 |                            01010
+                     s11 |                            01011 |                            01011
+                     s12 |                            01100 |                            01100
+                     s13 |                            01101 |                            01101
+                     s14 |                            01110 |                            01110
+                     s15 |                            01111 |                            01111
+                     s16 |                            10000 |                            10000
+                     s17 |                            10001 |                            10001
+                     s18 |                            10010 |                            10010
+                     s19 |                            10011 |                            10011
+                     s20 |                            10100 |                            10100
+                     s21 |                            10101 |                            10101
+                     s22 |                            10110 |                            10110
+                     s23 |                            10111 |                            10111
+                     s24 |                            11000 |                            11000
+                     s25 |                            11001 |                            11001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'project_reti_logiche'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                               00 |                               00
+                      s2 |                               01 |                               10
+                      s3 |                               10 |                               11
+                      s1 |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_conv_reg' using encoding 'sequential' in module 'project_reti_logiche'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 1138 ; free virtual = 16209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   3 Input    8 Bit        Muxes := 1     
+	  26 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 2     
+	  26 Input    1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 1119 ; free virtual = 16200
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 989 ; free virtual = 16074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 982 ; free virtual = 16066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 983 ; free virtual = 16067
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4649] Removing BlackBox instance DATAPATH0 of module datapath_bbox_0 having unconnected or no output ports
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT2   |     6|
+|4     |LUT3   |    26|
+|5     |LUT4   |     7|
+|6     |LUT5   |    15|
+|7     |LUT6   |    44|
+|8     |FDCE   |    67|
+|9     |IBUF   |    11|
+|10    |OBUF   |    27|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 935 ; free virtual = 16052
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2863.551 ; gain = 0.000 ; free physical = 988 ; free virtual = 16105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.551 ; gain = 63.930 ; free physical = 988 ; free virtual = 16105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2863.551 ; gain = 0.000 ; free physical = 962 ; free virtual = 16093
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2863.551 ; gain = 0.000 ; free physical = 1003 ; free virtual = 16125
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: c4a75c1e
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 2863.551 ; gain = 64.031 ; free physical = 1201 ; free virtual = 16323
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-191]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-91]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-35]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-78]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-314]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-102]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-164]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-127]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Timing 38-3]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[Common 17-14]}  -suppress '. The existing rule will be replaced.
+INFO: [Common 17-1381] The checkpoint '/home/nicolasbenatti/SynologyDrive/Polimi/3o_anno/reti_logiche/progetto/progetto_rl/progetto_rl.runs/synth_1/project_reti_logiche.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file project_reti_logiche_utilization_synth.rpt -pb project_reti_logiche_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May 16 09:18:39 2022...

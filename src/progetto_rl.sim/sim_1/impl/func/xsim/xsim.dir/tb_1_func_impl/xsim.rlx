@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3432514249514239220  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_1_func_impl xil_defaultlib.tb_1" , 
+    buildDate : "Oct 19 2021" , 
+    buildTime : "02:56:52" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tb_1_func_impl/xsimk\"   \"xsim.dir/tb_1_func_impl/obj/xsim_0.lnx64.o\" \"xsim.dir/tb_1_func_impl/obj/xsim_1.lnx64.o\" -L\"/opt/Xilinx/Vivado/2021.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,095.444 ns"></ZoomEndTime>
+      <Cursor1Time time="50,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/tb_1/tb_clk">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/tb_rst">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/tb_start">
+      <obj_property name="ElementShortName">tb_start</obj_property>
+      <obj_property name="ObjectShortName">tb_start</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/tb_done">
+      <obj_property name="ElementShortName">tb_done</obj_property>
+      <obj_property name="ObjectShortName">tb_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/read_end">
+      <obj_property name="ElementShortName">read_end</obj_property>
+      <obj_property name="ObjectShortName">read_end</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_1/UUT/cur_state">
+      <obj_property name="ElementShortName">cur_state</obj_property>
+      <obj_property name="ObjectShortName">cur_state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/enable_wire">
+      <obj_property name="ElementShortName">enable_wire</obj_property>
+      <obj_property name="ObjectShortName">enable_wire</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/UUT/mux4_out">
+      <obj_property name="ElementShortName">mux4_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux4_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/mux2_sel">
+      <obj_property name="ElementShortName">mux2_sel</obj_property>
+      <obj_property name="ObjectShortName">mux2_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/mux1_sel">
+      <obj_property name="ElementShortName">mux1_sel</obj_property>
+      <obj_property name="ObjectShortName">mux1_sel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/mem_address">
+      <obj_property name="ElementShortName">mem_address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_address[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/mem_o_data">
+      <obj_property name="ElementShortName">mem_o_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_o_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/mux4_sel">
+      <obj_property name="ElementShortName">mux4_sel</obj_property>
+      <obj_property name="ObjectShortName">mux4_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/r0_ld">
+      <obj_property name="ElementShortName">r0_ld</obj_property>
+      <obj_property name="ObjectShortName">r0_ld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/r2_ld">
+      <obj_property name="ElementShortName">r2_ld</obj_property>
+      <obj_property name="ObjectShortName">r2_ld</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/UUT/r2_out">
+      <obj_property name="ElementShortName">r2_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/r3_ld_sh">
+      <obj_property name="ElementShortName">r3_ld_sh</obj_property>
+      <obj_property name="ObjectShortName">r3_ld_sh</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/r3_en">
+      <obj_property name="ElementShortName">r3_en</obj_property>
+      <obj_property name="ObjectShortName">r3_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/UUT/r3_out">
+      <obj_property name="ElementShortName">r3_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r3_out[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/u">
+      <obj_property name="ElementShortName">u</obj_property>
+      <obj_property name="ObjectShortName">u</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/cnv_en">
+      <obj_property name="ElementShortName">cnv_en</obj_property>
+      <obj_property name="ObjectShortName">cnv_en</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_1/UUT/cur_state_conv">
+      <obj_property name="ElementShortName">cur_state_conv</obj_property>
+      <obj_property name="ObjectShortName">cur_state_conv</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/UUT/pk">
+      <obj_property name="ElementShortName">pk[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pk[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/UUT/r4_ld_sh">
+      <obj_property name="ElementShortName">r4_ld_sh</obj_property>
+      <obj_property name="ObjectShortName">r4_ld_sh</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_1/UUT/o_data">
+      <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_1/mem_we">
+      <obj_property name="ElementShortName">mem_we</obj_property>
+      <obj_property name="ObjectShortName">mem_we</obj_property>
+   </wvobject>
+</wave_config>
